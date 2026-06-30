@@ -1,107 +1,77 @@
 <svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1400" height="420" fill="#010806"/>
+  <rect width="1400" height="420" fill="#080b10"/>
 
   <defs>
-    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#00ff99" stop-opacity="0.42"/>
-      <stop offset="0.45" stop-color="#00d5ff" stop-opacity="0.12"/>
-      <stop offset="1" stop-color="#010806" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#00ff99"/>
-      <stop offset="0.5" stop-color="#00d5ff"/>
-      <stop offset="1" stop-color="#b7ff4a"/>
+    <linearGradient id="edge" x1="115" y1="70" x2="1285" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="0.45" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#a78bfa"/>
     </linearGradient>
-    <filter id="softGlow" x="-70%" y="-70%" width="240%" height="240%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
+    <linearGradient id="text" x1="430" y1="0" x2="980" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e0f2fe"/>
+      <stop offset="0.5" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <radialGradient id="pulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="0.42" stop-color="#f97316" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#080b10" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <pattern id="grid" width="74" height="74" patternUnits="userSpaceOnUse">
-      <path d="M74 0H0V74" stroke="#00ff99" stroke-opacity="0.055"/>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#94a3b8" stroke-opacity="0.07" stroke-width="1"/>
     </pattern>
   </defs>
 
-  <style>
-    .mono { font-family: Consolas, Monaco, monospace; }
-    .ui { font-family: Segoe UI, Arial, sans-serif; }
-    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; }
-    .floatA { animation: floatA 5s ease-in-out infinite; }
-    .floatB { animation: floatB 6.2s ease-in-out infinite; }
-    .dash { stroke-dasharray: 18 14; animation: dash 9s linear infinite; }
-    .blink { animation: blink 1.5s steps(2) infinite; }
-    @keyframes pulse { 0%,100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.045); } }
-    @keyframes floatA { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-16px); } }
-    @keyframes floatB { 0%,100% { transform: translateY(0); } 50% { transform: translateY(14px); } }
-    @keyframes dash { to { stroke-dashoffset: -240; } }
-    @keyframes blink { 0%,48% { opacity: 1; } 49%,100% { opacity: .18; } }
-  </style>
-
   <rect width="1400" height="420" fill="url(#grid)"/>
-  <circle class="pulse" cx="700" cy="210" r="250" fill="url(#coreGlow)"/>
+  <circle cx="700" cy="210" r="260" fill="url(#pulse)"/>
 
-  <g stroke="#00ff99" stroke-opacity="0.16">
-    <path d="M0 116L220 250L500 92L700 210L1000 70L1400 288"/>
-    <path d="M0 310L280 204L520 332L700 210L928 322L1400 126"/>
-    <path d="M228 0L246 420M692 0L700 420M1160 0L1132 420"/>
+  <path d="M112 210C200 126 288 126 376 210C464 294 552 294 640 210C728 126 816 126 904 210C992 294 1080 294 1168 210C1212 168 1256 147 1300 147"
+        stroke="url(#edge)" stroke-width="2.5" stroke-opacity="0.75"/>
+  <path d="M112 264C244 184 350 184 430 264C510 344 638 344 718 264C798 184 926 184 1006 264C1086 344 1214 344 1300 264"
+        stroke="#64748b" stroke-width="1.6" stroke-opacity="0.45"/>
+
+  <g opacity="0.22" font-family="Consolas, Monaco, monospace" font-size="15" fill="#94a3b8">
+    <text x="86" y="92">commit --amend --dream</text>
+    <text x="86" y="118">branch: main / signal: clean</text>
+    <text x="86" y="144">build_id: RHTU-0420</text>
+    <text x="1134" y="96">01010010</text>
+    <text x="1134" y="122">00101101</text>
+    <text x="1134" y="148">01001000</text>
+    <text x="1134" y="174">01110100</text>
+    <text x="1134" y="200">01110101</text>
   </g>
 
-  <path class="dash" d="M56 72H430L456 52L474 86L504 72H1344" stroke="url(#signal)" stroke-width="2"/>
-  <path class="dash" d="M56 348H392L426 316L452 368L480 348H1344" stroke="url(#signal)" stroke-opacity="0.55" stroke-width="2"/>
-
-  <g class="mono" font-size="15" fill="#00d5ff" opacity="0.78">
-    <text x="54" y="61">ID:R-HTU-001 // SIGNAL:STRONG</text>
-    <text x="1018" y="61">R-HTU // Coding // Portfolio</text>
+  <g transform="translate(545 82)" filter="url(#softGlow)">
+    <path d="M155 0L289 76V229L155 306L20 229V76L155 0Z" fill="#0f172a" fill-opacity="0.82" stroke="url(#edge)" stroke-width="3"/>
+    <path d="M155 35L257 94V211L155 270L53 211V94L155 35Z" fill="#020617" stroke="#334155" stroke-width="2"/>
+    <path d="M155 72L224 112V192L155 232L86 192V112L155 72Z" stroke="#f97316" stroke-width="2.3"/>
+    <path d="M155 104L196 128V176L155 200L114 176V128L155 104Z" fill="#111827" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="155" cy="152" r="10" fill="#fb923c"/>
+    <path d="M155 35V0M155 270V306M20 76L53 94M289 76L257 94M20 229L53 211M289 229L257 211" stroke="#94a3b8" stroke-width="2"/>
   </g>
 
-  <g transform="translate(78 102)" class="mono">
-    <text x="0" y="0" fill="#00d5ff" font-size="16">SIGNAL</text>
-    <text x="0" y="34" fill="#00ff99" font-size="26" font-weight="700">STRONG</text>
-    <text x="0" y="66" fill="#00d5ff" font-size="16">LAT:EARTH</text>
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <text x="700" y="226" font-size="78" font-weight="800" fill="url(#text)" letter-spacing="0">R-Htu</text>
+    <text x="700" y="270" font-size="22" font-weight="600" fill="#cbd5e1">developer portfolio // clean code // sharp builds</text>
   </g>
 
-  <g transform="translate(1064 102)" class="mono">
-    <text x="0" y="0" fill="#00d5ff" font-size="16">STATUS</text>
-    <text x="0" y="34" fill="#00ff99" font-size="26" font-weight="700">ONLINE</text>
-    <text x="0" y="66" fill="#00d5ff" font-size="16">VER:ODD</text>
+  <g stroke-linecap="round">
+    <path d="M358 328H1042" stroke="#334155" stroke-width="2"/>
+    <path d="M460 328H598" stroke="#22d3ee" stroke-width="4"/>
+    <path d="M626 328H760" stroke="#f97316" stroke-width="4"/>
+    <path d="M788 328H940" stroke="#a78bfa" stroke-width="4"/>
   </g>
 
-  <g transform="translate(80 286)" class="mono">
-    <text x="0" y="0" fill="#00d5ff" font-size="16">CORE</text>
-    <text x="0" y="34" fill="#00ff99" font-size="26" font-weight="700">LOVE++</text>
-    <text x="0" y="66" fill="#00d5ff" font-size="16">TEMP:WARM</text>
-  </g>
-
-  <g transform="translate(1058 286)" class="mono">
-    <text x="0" y="0" fill="#00d5ff" font-size="16">UPTIME</text>
-    <text x="0" y="34" fill="#00ff99" font-size="26" font-weight="700">2006-NOW</text>
-    <text x="0" y="66" fill="#00d5ff" font-size="16">LOOP:INF</text>
-  </g>
-
-  <g transform="translate(540 94)" filter="url(#softGlow)">
-    <path class="pulse" d="M160 0L286 72V216L160 288L34 216V72L160 0Z" fill="#02140f" fill-opacity="0.72" stroke="#00ff99" stroke-width="2.5"/>
-    <path d="M160 45L246 94V194L160 244L74 194V94L160 45Z" fill="#06241b" stroke="#00d5ff" stroke-opacity="0.46" stroke-width="2"/>
-    <text x="160" y="118" text-anchor="middle" class="mono" fill="#00ff99" font-size="18">O - O - O</text>
-    <text x="160" y="148" text-anchor="middle" class="mono" fill="#7dffcb" font-size="16">DESIGN.CODE</text>
-    <text x="160" y="174" text-anchor="middle" class="mono" fill="#7dffcb" font-size="16">DEBUG.LIFE</text>
-    <text x="160" y="200" text-anchor="middle" class="mono" fill="#7dffcb" font-size="16">REPEAT...</text>
-    <text x="160" y="230" text-anchor="middle" class="mono" fill="#00ff99" font-size="18">O - O - O</text>
-  </g>
-
-  <g class="ui" text-anchor="middle">
-    <text x="700" y="42" fill="#00ff99" font-size="42" font-weight="800">R-Htu</text>
-    <text x="700" y="383" fill="#c8fff0" font-size="24" font-weight="700">Full-Stack Developer // Creative Designer // Traveler From Another Dimension</text>
-  </g>
-
-  <g filter="url(#softGlow)">
-    <circle class="floatA" cx="112" cy="224" r="5" fill="#00ff99"/>
-    <circle class="floatB" cx="370" cy="174" r="5" fill="#7dffcb"/>
-    <circle class="floatA" cx="530" cy="284" r="8" fill="#00d5ff"/>
-    <circle class="floatB" cx="824" cy="104" r="8" fill="#9b7cff"/>
-    <circle class="floatA" cx="982" cy="266" r="7" fill="#00ff99"/>
-    <circle class="floatB" cx="1242" cy="206" r="6" fill="#b7ff4a"/>
-    <circle class="blink" cx="1370" cy="34" r="9" fill="#00ff99"/>
+  <g fill="#e2e8f0" font-family="Consolas, Monaco, monospace" font-size="15">
+    <text x="436" y="356">frontend</text>
+    <text x="640" y="356">backend</text>
+    <text x="828" y="356">systems</text>
   </g>
 </svg>
