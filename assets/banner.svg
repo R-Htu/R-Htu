@@ -1,0 +1,77 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="420" fill="#080b10"/>
+
+  <defs>
+    <linearGradient id="edge" x1="115" y1="70" x2="1285" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="0.45" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="text" x1="430" y1="0" x2="980" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e0f2fe"/>
+      <stop offset="0.5" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <radialGradient id="pulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="0.42" stop-color="#f97316" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#080b10" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#94a3b8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="420" fill="url(#grid)"/>
+  <circle cx="700" cy="210" r="260" fill="url(#pulse)"/>
+
+  <path d="M112 210C200 126 288 126 376 210C464 294 552 294 640 210C728 126 816 126 904 210C992 294 1080 294 1168 210C1212 168 1256 147 1300 147"
+        stroke="url(#edge)" stroke-width="2.5" stroke-opacity="0.75"/>
+  <path d="M112 264C244 184 350 184 430 264C510 344 638 344 718 264C798 184 926 184 1006 264C1086 344 1214 344 1300 264"
+        stroke="#64748b" stroke-width="1.6" stroke-opacity="0.45"/>
+
+  <g opacity="0.22" font-family="Consolas, Monaco, monospace" font-size="15" fill="#94a3b8">
+    <text x="86" y="92">commit --amend --dream</text>
+    <text x="86" y="118">branch: main / signal: clean</text>
+    <text x="86" y="144">build_id: RHTU-0420</text>
+    <text x="1134" y="96">01010010</text>
+    <text x="1134" y="122">00101101</text>
+    <text x="1134" y="148">01001000</text>
+    <text x="1134" y="174">01110100</text>
+    <text x="1134" y="200">01110101</text>
+  </g>
+
+  <g transform="translate(545 82)" filter="url(#softGlow)">
+    <path d="M155 0L289 76V229L155 306L20 229V76L155 0Z" fill="#0f172a" fill-opacity="0.82" stroke="url(#edge)" stroke-width="3"/>
+    <path d="M155 35L257 94V211L155 270L53 211V94L155 35Z" fill="#020617" stroke="#334155" stroke-width="2"/>
+    <path d="M155 72L224 112V192L155 232L86 192V112L155 72Z" stroke="#f97316" stroke-width="2.3"/>
+    <path d="M155 104L196 128V176L155 200L114 176V128L155 104Z" fill="#111827" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="155" cy="152" r="10" fill="#fb923c"/>
+    <path d="M155 35V0M155 270V306M20 76L53 94M289 76L257 94M20 229L53 211M289 229L257 211" stroke="#94a3b8" stroke-width="2"/>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <text x="700" y="226" font-size="78" font-weight="800" fill="url(#text)" letter-spacing="0">R-Htu</text>
+    <text x="700" y="270" font-size="22" font-weight="600" fill="#cbd5e1">developer portfolio // clean code // sharp builds</text>
+  </g>
+
+  <g stroke-linecap="round">
+    <path d="M358 328H1042" stroke="#334155" stroke-width="2"/>
+    <path d="M460 328H598" stroke="#22d3ee" stroke-width="4"/>
+    <path d="M626 328H760" stroke="#f97316" stroke-width="4"/>
+    <path d="M788 328H940" stroke="#a78bfa" stroke-width="4"/>
+  </g>
+
+  <g fill="#e2e8f0" font-family="Consolas, Monaco, monospace" font-size="15">
+    <text x="436" y="356">frontend</text>
+    <text x="640" y="356">backend</text>
+    <text x="828" y="356">systems</text>
+  </g>
+</svg>
