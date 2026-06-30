@@ -1,0 +1,91 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="520" rx="18" fill="#070a12"/>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#101827"/>
+      <stop offset="1" stop-color="#090d16"/>
+    </linearGradient>
+    <linearGradient id="acid" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#8bff5a"/>
+      <stop offset="0.45" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <radialGradient id="wormhole" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8bff5a" stop-opacity="0.34"/>
+      <stop offset="0.48" stop-color="#22d3ee" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#070a12" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#7dd3fc" stroke-opacity="0.06"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="520" fill="url(#grid)"/>
+  <circle cx="600" cy="260" r="220" fill="url(#wormhole)"/>
+  <rect x="26" y="26" width="1148" height="468" rx="16" stroke="#334155" stroke-width="2"/>
+  <path d="M55 86H1145" stroke="url(#acid)" stroke-width="2"/>
+
+  <text x="60" y="62" fill="#e5f7ff" font-family="Consolas, monospace" font-size="22" font-weight="700">R-Htu // Interdimensional Build Console</text>
+  <text x="920" y="62" fill="#8bff5a" font-family="Consolas, monospace" font-size="16">SIGNAL: VERY SUSPICIOUS</text>
+
+  <g transform="translate(60 120)">
+    <rect width="316" height="150" rx="14" fill="url(#panel)" stroke="#263244"/>
+    <text x="22" y="36" fill="#8bff5a" font-family="Segoe UI, Arial" font-size="20" font-weight="700">Mission Status</text>
+    <text x="22" y="72" fill="#cbd5e1" font-family="Consolas, monospace" font-size="16">coffee_fuel: 97%</text>
+    <text x="22" y="102" fill="#cbd5e1" font-family="Consolas, monospace" font-size="16">bugs_detected: probably</text>
+    <text x="22" y="132" fill="#cbd5e1" font-family="Consolas, monospace" font-size="16">deploy_mood: brave</text>
+  </g>
+
+  <g transform="translate(442 112)" filter="url(#glow)">
+    <ellipse cx="158" cy="138" rx="96" ry="118" fill="#111827" stroke="url(#acid)" stroke-width="3"/>
+    <ellipse cx="122" cy="130" rx="23" ry="34" fill="#8bff5a"/>
+    <ellipse cx="194" cy="130" rx="23" ry="34" fill="#8bff5a"/>
+    <circle cx="129" cy="130" r="7" fill="#020617"/>
+    <circle cx="187" cy="130" r="7" fill="#020617"/>
+    <path d="M126 194C148 212 172 212 194 194" stroke="#22d3ee" stroke-width="4" stroke-linecap="round"/>
+    <path d="M70 78C28 30 40 8 104 50" stroke="#f472b6" stroke-width="4" stroke-linecap="round"/>
+    <path d="M246 78C288 30 276 8 212 50" stroke="#f472b6" stroke-width="4" stroke-linecap="round"/>
+    <path d="M86 250C118 290 198 290 230 250" stroke="#334155" stroke-width="3"/>
+  </g>
+
+  <g transform="translate(824 120)">
+    <rect width="316" height="150" rx="14" fill="url(#panel)" stroke="#263244"/>
+    <text x="22" y="36" fill="#22d3ee" font-family="Segoe UI, Arial" font-size="20" font-weight="700">Dimensional Stack</text>
+    <text x="22" y="72" fill="#cbd5e1" font-family="Consolas, monospace" font-size="16">React Native  // mobile portal</text>
+    <text x="22" y="102" fill="#cbd5e1" font-family="Consolas, monospace" font-size="16">Next.js       // web ship</text>
+    <text x="22" y="132" fill="#cbd5e1" font-family="Consolas, monospace" font-size="16">Firebase      // data nebula</text>
+  </g>
+
+  <g transform="translate(60 315)">
+    <text x="0" y="0" fill="#f472b6" font-family="Segoe UI, Arial" font-size="19" font-weight="700">Alien Language Mix</text>
+    <rect x="0" y="26" width="420" height="18" rx="9" fill="#1f2937"/>
+    <rect x="0" y="26" width="138" height="18" rx="9" fill="#22d3ee"/>
+    <rect x="138" y="26" width="108" height="18" fill="#8bff5a"/>
+    <rect x="246" y="26" width="78" height="18" fill="#f97316"/>
+    <rect x="324" y="26" width="62" height="18" fill="#a78bfa"/>
+    <rect x="386" y="26" width="34" height="18" rx="9" fill="#f472b6"/>
+    <text x="0" y="76" fill="#cbd5e1" font-family="Consolas, monospace" font-size="15">JS/TS 33%  React 26%  Firebase 19%  CSS 15%  Mystery 7%</text>
+  </g>
+
+  <g transform="translate(610 312)">
+    <text x="0" y="0" fill="#8bff5a" font-family="Segoe UI, Arial" font-size="19" font-weight="700">Contribution Wormhole</text>
+    <path d="M0 118C40 24 78 82 116 54C154 26 190 126 230 78C270 30 308 52 346 42C384 32 420 92 466 36"
+          stroke="url(#acid)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M0 118H488" stroke="#334155" stroke-width="2"/>
+    <path d="M0 118V24" stroke="#334155" stroke-width="2"/>
+    <g fill="#22d3ee">
+      <circle cx="0" cy="118" r="5"/>
+      <circle cx="116" cy="54" r="5"/>
+      <circle cx="230" cy="78" r="5"/>
+      <circle cx="346" cy="42" r="5"/>
+      <circle cx="466" cy="36" r="5"/>
+    </g>
+    <text x="0" y="154" fill="#94a3b8" font-family="Consolas, monospace" font-size="14">warning: graph may include parallel-universe commits</text>
+  </g>
+</svg>
