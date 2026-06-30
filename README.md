@@ -2,10 +2,10 @@
   <img src="./assets/banner.svg" alt="Portfolio banner" width="100%" />
 </p>
 
-<h1 align="center">Hey, I'm R-Htu 👋</h1>
+<h1 align="center">Hey, I'm R-Htu</h1>
 
 <p align="center">
-  <b>Full-Stack Developer</b> • <b>Backend Builder</b> • <b>Creative Problem Solver</b>
+  <b>Full-Stack Developer</b> | <b>Backend Builder</b> | <b>Creative Problem Solver</b>
 </p>
 
 <p align="center">
@@ -19,65 +19,74 @@
   <a href="https://www.linkedin.com/">
     <img src="https://img.shields.io/badge/LinkedIn-2563eb?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:your-email@example.com">
+  <a href="mailto:htuaung89@gmail.com">
     <img src="https://img.shields.io/badge/Email-f59e0b?style=for-the-badge&logo=gmail&logoColor=111827" alt="Email" />
   </a>
 </p>
 
 ---
 
-## ✦ whoami
+## whoami
 
 ```rust
 fn main() {
-    let me = Developer {
+    let me = Human {
         name: "R-Htu",
-        role: ["Full-Stack Developer", "Backend Developer"],
-        focus: "clean systems, useful products, and fast learning",
-        currently_learning: ["React", "Node.js", "Databases", "Cloud"],
-        open_to: ["collaboration", "internships", "freelance", "open source"],
+        role: ["Full-Stack Developer", "Forever learner"],
+        status: "debugging life one console.log at a time",
+        superpower: "turning coffee into deploys",
+        currently_learning: ["React Native", "Next.js", "Node.js", "Databases", "Cloud"],
+        open_to: ["collaboration", "freelance", "open source"],
+        bug_count_today: "yes",
     };
+
+    while me.is_awake() {
+        me.code();
+        me.break_things();
+        me.fix_things();
+        me.say("it works on my machine");
+    }
 }
 ```
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,nodejs,express,python,java,git,github,mongodb,postgres,sqlite,firebase,vscode&perline=9" alt="Tech stack icons" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,nodejs,express,python,java,git,github,mongodb,postgres,sqlite,flutter,firebase,vscode&perline=9" alt="Tech stack icons" />
 </p>
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">Project One</h3>
+      <h3 align="center">EchoChat</h3>
       <p align="center">
-        <a href="https://github.com/R-Htu">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=R-Htu&repo=R-Htu&theme=github_dark&hide_border=true" alt="Profile repository" />
+        <a href="https://echochat-five.vercel.app/">
+          <img src="https://img.shields.io/badge/Live_Demo-echochat--five.vercel.app-22d3ee?style=for-the-badge&logo=vercel&logoColor=white" alt="EchoChat live demo" />
         </a>
       </p>
-      <p align="center">My GitHub profile portfolio, built to show skills, projects, and current focus.</p>
+      <p align="center">A real-time chat app built for fast, clean conversation and a smooth web experience.</p>
     </td>
     <td width="50%">
-      <h3 align="center">Project Two</h3>
+      <h3 align="center">Firestore Lesson</h3>
       <p align="center">
-        <a href="https://github.com/R-Htu?tab=repositories">
-          <img src="https://github-readme-stats.vercel.app/api?username=R-Htu&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub stats preview" />
+        <a href="https://firestore-lesson-one.vercel.app/">
+          <img src="https://img.shields.io/badge/Live_Demo-firestore--lesson--one.vercel.app-f97316?style=for-the-badge&logo=firebase&logoColor=white" alt="Firestore Lesson live demo" />
         </a>
       </p>
-      <p align="center">More projects will appear here as I build and publish new work.</p>
+      <p align="center">A Firebase/Firestore learning project focused on storing, reading, and working with live app data.</p>
     </td>
   </tr>
 </table>
 
 ---
 
-## 📊 GitHub Activity
+## GitHub Activity
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=R-Htu&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub stats" />
@@ -90,7 +99,7 @@ fn main() {
 
 ---
 
-## ⚡ Current Focus
+## Current Focus
 
 - Building production-ready web apps
 - Improving backend architecture and database design
@@ -99,14 +108,14 @@ fn main() {
 
 ---
 
-## 📫 Contact
+## Contact
 
 <p align="center">
   <b>Let's build something useful.</b>
 </p>
 
 <p align="center">
-  <a href="mailto:your-email@example.com">Email</a> •
-  <a href="https://www.linkedin.com/">LinkedIn</a> •
+  <a href="mailto:htuaung89@gmail.com">Email</a> |
+  <a href="https://www.linkedin.com/">LinkedIn</a> |
   <a href="https://github.com/R-Htu">GitHub</a>
 </p>
