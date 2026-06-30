@@ -2,7 +2,9 @@
   <img src="./assets/banner.svg" alt="Animated alien portfolio header" width="100%" />
 </p>
 
-<h1 align="center">Hey, I'm R-Htu</h1>
+<p align="center">
+  <img src="./assets/animated-name.svg" alt="Hey, I'm R-Htu" width="520" />
+</p>
 
 <p align="center">
   <b>Full-Stack Developer</b> | <b>Creative Designer</b> | <b>Forever Learner</b>

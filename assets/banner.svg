@@ -32,11 +32,18 @@
     .floatB { animation: floatB 6.2s ease-in-out infinite; }
     .dash { stroke-dasharray: 18 14; animation: dash 9s linear infinite; }
     .blink { animation: blink 1.5s steps(2) infinite; }
+    .danceName { animation: danceName 1.8s ease-in-out infinite; transform-origin: 700px 42px; }
     @keyframes pulse { 0%,100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.045); } }
     @keyframes floatA { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-16px); } }
     @keyframes floatB { 0%,100% { transform: translateY(0); } 50% { transform: translateY(14px); } }
     @keyframes dash { to { stroke-dashoffset: -240; } }
     @keyframes blink { 0%,48% { opacity: 1; } 49%,100% { opacity: .18; } }
+    @keyframes danceName {
+      0%,100% { transform: translateY(0) rotate(0deg) scale(1); fill: #00ff99; }
+      25% { transform: translateY(-5px) rotate(-1.3deg) scale(1.03); fill: #00d5ff; }
+      50% { transform: translateY(4px) rotate(1.3deg) scale(1.01); fill: #b7ff4a; }
+      75% { transform: translateY(-3px) rotate(.8deg) scale(1.035); fill: #ff4fd8; }
+    }
   </style>
 
   <rect width="1400" height="420" fill="url(#grid)"/>
@@ -91,7 +98,7 @@
   </g>
 
   <g class="ui" text-anchor="middle">
-    <text x="700" y="42" fill="#00ff99" font-size="42" font-weight="800">R-Htu</text>
+    <text class="danceName" x="700" y="42" fill="#00ff99" font-size="42" font-weight="800">R-Htu</text>
     <text x="700" y="383" fill="#c8fff0" font-size="24" font-weight="700">Full-Stack Developer // Creative Designer // Traveler From Another Dimension</text>
   </g>
 

@@ -1,0 +1,67 @@
+<svg width="760" height="110" viewBox="0 0 760 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nameGradient" x1="90" y1="0" x2="670" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00ff99">
+        <animate attributeName="stop-color" values="#00ff99;#00d5ff;#b7ff4a;#ff4fd8;#00ff99" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#00d5ff">
+        <animate attributeName="stop-color" values="#00d5ff;#ff4fd8;#00ff99;#b7ff4a;#00d5ff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#ff4fd8">
+        <animate attributeName="stop-color" values="#ff4fd8;#b7ff4a;#00d5ff;#00ff99;#ff4fd8" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    .headline {
+      font-family: Segoe UI, Arial, sans-serif;
+      font-size: 54px;
+      font-weight: 900;
+      letter-spacing: 0;
+      animation: dance 1.6s ease-in-out infinite;
+      transform-origin: 380px 58px;
+    }
+    .shadow {
+      font-family: Segoe UI, Arial, sans-serif;
+      font-size: 54px;
+      font-weight: 900;
+      letter-spacing: 0;
+      opacity: .22;
+      animation: shadowDance 1.6s ease-in-out infinite;
+      transform-origin: 380px 58px;
+    }
+    .signal {
+      stroke-dasharray: 16 10;
+      animation: slide 4s linear infinite;
+    }
+    @keyframes dance {
+      0%,100% { transform: translateY(0) rotate(0deg) scale(1); }
+      20% { transform: translateY(-7px) rotate(-1.4deg) scale(1.025); }
+      40% { transform: translateY(4px) rotate(1.2deg) scale(1.01); }
+      60% { transform: translateY(-5px) rotate(.8deg) scale(1.035); }
+      80% { transform: translateY(3px) rotate(-.8deg) scale(1.015); }
+    }
+    @keyframes shadowDance {
+      0%,100% { transform: translate(5px, 5px); }
+      50% { transform: translate(-5px, 7px); }
+    }
+    @keyframes slide { to { stroke-dashoffset: -160; } }
+  </style>
+  <rect width="760" height="110" rx="18" fill="#010806"/>
+  <path class="signal" d="M28 78H184L208 48L230 80L256 58L284 78H732" stroke="#00ff99" stroke-opacity=".42" stroke-width="2"/>
+  <text class="shadow" x="380" y="72" text-anchor="middle" fill="#00d5ff">Hey, I'm R-Htu</text>
+  <text class="headline" x="380" y="72" text-anchor="middle" fill="url(#nameGradient)" filter="url(#glow)">Hey, I'm R-Htu</text>
+  <circle cx="48" cy="31" r="5" fill="#00ff99">
+    <animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="714" cy="31" r="5" fill="#ff4fd8">
+    <animate attributeName="opacity" values=".2;1;.2" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
