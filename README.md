@@ -5,19 +5,19 @@
 <h1 align="center">Hey, I'm R-Htu</h1>
 
 <p align="center">
-  <b>Full-Stack Developer</b> | <b>Backend Builder</b> | <b>Creative Problem Solver</b>
+  <b>Full-Stack Developer</b> | <b>Creative Designer</b> | <b>Forever Learner</b>
 </p>
 
 <p align="center">
-  I build clean, scalable apps with thoughtful UX, reliable APIs, and code that is easy to maintain.
+  I build clean, useful apps with thoughtful UX, creative interfaces, and code that is easy to maintain.
 </p>
 
 <p align="center">
   <a href="https://github.com/R-Htu">
     <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://www.linkedin.com/">
-    <img src="https://img.shields.io/badge/LinkedIn-2563eb?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://www.youtube.com/@the_dumb_traveler">
+    <img src="https://img.shields.io/badge/YouTube-the__dumb__traveler-ff0033?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
   </a>
   <a href="mailto:htuaung89@gmail.com">
     <img src="https://img.shields.io/badge/Email-f59e0b?style=for-the-badge&logo=gmail&logoColor=111827" alt="Email" />
@@ -32,19 +32,19 @@
 fn main() {
     let me = Human {
         name: "R-Htu",
-        role: ["Full-Stack Developer", "Forever learner"],
+        role: ["Full-Stack Developer", "Creative Designer", "Forever learner"],
         status: "debugging life one console.log at a time",
-        superpower: "turning coffee into deploys",
+        superpower: "turning weird ideas into working interfaces",
         currently_learning: ["React Native", "Next.js", "Node.js", "Databases", "Cloud"],
         open_to: ["collaboration", "freelance", "open source"],
-        bug_count_today: "yes",
+        daily_bug_report: "the bug was me, but I fixed me",
     };
 
     while me.is_awake() {
+        me.design();
         me.code();
         me.break_things();
         me.fix_things();
-        me.say("it works on my machine");
     }
 }
 ```
@@ -86,23 +86,13 @@ fn main() {
 
 ---
 
-## Alien Control Room
-
-<p align="center">
-  <img src="./assets/alien-dashboard.svg" alt="Alien dimension developer dashboard" width="100%" />
-</p>
-
-> Transmission received: I came from another dimension to write bugs in this one.
-
----
-
 ## GitHub Activity
 
 <table>
   <tr>
     <td width="33%" align="center">
       <b>Building</b><br />
-      Full-stack apps, backend APIs, and Firebase projects.
+      Full-stack apps, creative interfaces, and Firebase experiments.
     </td>
     <td width="33%" align="center">
       <b>Learning</b><br />
@@ -126,7 +116,7 @@ fn main() {
 ## Current Focus
 
 - Building production-ready web apps
-- Improving backend architecture and database design
+- Designing better interfaces and smoother user experiences
 - Learning cloud deployment and CI/CD
 - Contributing to open-source projects
 
@@ -140,6 +130,6 @@ fn main() {
 
 <p align="center">
   <a href="mailto:htuaung89@gmail.com">Email</a> |
-  <a href="https://www.linkedin.com/">LinkedIn</a> |
+  <a href="https://www.youtube.com/@the_dumb_traveler">YouTube</a> |
   <a href="https://github.com/R-Htu">GitHub</a>
 </p>
