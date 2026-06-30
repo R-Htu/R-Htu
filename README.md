@@ -86,6 +86,16 @@ fn main() {
 
 ---
 
+## Alien Control Room
+
+<p align="center">
+  <img src="./assets/alien-dashboard.svg" alt="Alien dimension developer dashboard" width="100%" />
+</p>
+
+> Transmission received: I came from another dimension to write bugs in this one.
+
+---
+
 ## GitHub Activity
 
 <table>
