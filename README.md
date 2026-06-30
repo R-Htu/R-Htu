@@ -88,13 +88,27 @@ fn main() {
 
 ## GitHub Activity
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=R-Htu&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=R-Htu&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
-</p>
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <b>Building</b><br />
+      Full-stack apps, backend APIs, and Firebase projects.
+    </td>
+    <td width="33%" align="center">
+      <b>Learning</b><br />
+      React Native, Next.js, Node.js, databases, and cloud deployment.
+    </td>
+    <td width="33%" align="center">
+      <b>Shipping</b><br />
+      Small projects, real demos, and cleaner code every week.
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=R-Htu&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
+  <a href="https://github.com/R-Htu?tab=repositories">
+    <img src="https://img.shields.io/badge/View_My_Repositories-111827?style=for-the-badge&logo=github&logoColor=white" alt="View repositories" />
+  </a>
 </p>
 
 ---
