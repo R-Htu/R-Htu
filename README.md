@@ -97,6 +97,16 @@ fn main() {
 
 ---
 
+## Pocket Galaxy
+
+<p align="center">
+  <img src="./assets/pocket-galaxy.svg" alt="Animated pocket galaxy with developer jokes" width="100%" />
+</p>
+
+> Tiny universe. Big deploy button. Suspicious confidence.
+
+---
+
 ## GitHub Activity
 
 <table>
