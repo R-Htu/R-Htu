@@ -61,28 +61,29 @@ fn main() {
 
 ## Featured Projects
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">EchoChat</h3>
-      <p align="center">
-        <a href="https://echochat-five.vercel.app/">
-          <img src="https://img.shields.io/badge/Live_Demo-echochat--five.vercel.app-22d3ee?style=for-the-badge&logo=vercel&logoColor=white" alt="EchoChat live demo" />
-        </a>
-      </p>
-      <p align="center">A real-time chat app built for fast, clean conversation and a smooth web experience.</p>
-    </td>
-    <td width="50%">
-      <h3 align="center">Firestore Lesson</h3>
-      <p align="center">
-        <a href="https://firestore-lesson-one.vercel.app/">
-          <img src="https://img.shields.io/badge/Live_Demo-firestore--lesson--one.vercel.app-f97316?style=for-the-badge&logo=firebase&logoColor=white" alt="Firestore Lesson live demo" />
-        </a>
-      </p>
-      <p align="center">A Firebase/Firestore learning project focused on storing, reading, and working with live app data.</p>
-    </td>
-  </tr>
-</table>
+### EchoChat
+
+<p align="center">
+  <a href="https://echochat-five.vercel.app/">
+    <img width="280" src="https://img.shields.io/badge/Live_Demo-EchoChat-22d3ee?style=for-the-badge&logo=vercel&logoColor=111827" alt="EchoChat live demo" />
+  </a>
+</p>
+
+<p align="center">
+  A real-time chat app built for fast, clean conversation and a smooth web experience.
+</p>
+
+### Firestore Lesson
+
+<p align="center">
+  <a href="https://firestore-lesson-one.vercel.app/">
+    <img width="280" src="https://img.shields.io/badge/Live_Demo-Firestore_Lesson-f97316?style=for-the-badge&logo=firebase&logoColor=111827" alt="Firestore Lesson live demo" />
+  </a>
+</p>
+
+<p align="center">
+  A Firebase/Firestore learning project focused on storing, reading, and working with live app data.
+</p>
 
 ---
 
