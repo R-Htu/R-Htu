@@ -73,7 +73,7 @@ fn main() {
   A real-time chat app built for fast, clean conversation and a smooth web experience.
 </p>
 
-### Chinese learning app Lesson
+### Chinese learning app 
 
 <p align="center">
   <a href="https://chinese-app-real.web.app/">
