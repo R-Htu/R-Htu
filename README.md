@@ -16,8 +16,8 @@
   <a href="https://github.com/R-Htu">
     <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://www.youtube.com/@the_dumb_traveler">
-    <img src="https://img.shields.io/badge/YouTube-the__dumb__traveler-ff0033?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  <a href="https://www.youtube.com/@messy67">
+    <img src="https://img.shields.io/badge/YouTube-messy67-ff0033?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
   </a>
   <a href="mailto:htuaung89@gmail.com">
     <img src="https://img.shields.io/badge/Email-f59e0b?style=for-the-badge&logo=gmail&logoColor=111827" alt="Email" />
@@ -73,17 +73,19 @@ fn main() {
   A real-time chat app built for fast, clean conversation and a smooth web experience.
 </p>
 
-### Firestore Lesson
+### Chinese learning app Lesson
 
 <p align="center">
-  <a href="https://firestore-lesson-one.vercel.app/">
-    <img width="280" src="https://img.shields.io/badge/Live_Demo-Firestore_Lesson-f97316?style=for-the-badge&logo=firebase&logoColor=111827" alt="Firestore Lesson live demo" />
+  <a href="https://chinese-app-real.web.app/">
+    <img width="280" src="https://img.shields.io/badge/Live_Demo-Chinese_App-f97316?style=for-the-badge&logo=firebase&logoColor=111827" alt="Chinese App live demo" />
   </a>
 </p>
 
 <p align="center">
-  A Firebase/Firestore learning project focused on storing, reading, and working with live app data.
+  A modern Chinese learning app powered by Firebase and Firestore, designed to help users practice vocabulary, pronunciation, and everyday phrases.
 </p>
+
+
 
 ---
 
@@ -151,6 +153,6 @@ fn main() {
 
 <p align="center">
   <a href="mailto:htuaung89@gmail.com">Email</a> |
-  <a href="https://www.youtube.com/@the_dumb_traveler">YouTube</a> |
+  <a href="https://www.youtube.com/@messy67">YouTube</a> |
   <a href="https://github.com/R-Htu">GitHub</a>
 </p>
