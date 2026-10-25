@@ -61,6 +61,40 @@ fn main() {
 
 ## Featured Projects
 
+### iDevMeet — my own community for developers
+
+<p align="center">
+  <a href="https://idevmeet.com/">
+    <img width="280" src="https://img.shields.io/badge/Join-iDevMeet.com-a78bfa?style=for-the-badge&logo=cloudflare&logoColor=111827" alt="Join iDevMeet" />
+  </a>
+</p>
+
+<p align="center">
+  I built <b>iDevMeet</b> as a community where developers meet, learn and build together.<br />
+  Find a <b>coder partner</b>, work on a <b>real project</b> side by side, and grow with people who ship.
+</p>
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <b>Find a partner</b><br />
+      Meet another developer at your level and team up instead of learning alone.
+    </td>
+    <td width="33%" align="center">
+      <b>Build something real</b><br />
+      Work with a partner or mentor on a real project, not another tutorial.
+    </td>
+    <td width="33%" align="center">
+      <b>Hang out and learn</b><br />
+      Live classrooms, chat rooms, games and shared code, all in one place.
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <i>Web and phone app. Free to join at <a href="https://idevmeet.com/">idevmeet.com</a>.</i>
+</p>
+
 ### EchoChat
 
 <p align="center">
