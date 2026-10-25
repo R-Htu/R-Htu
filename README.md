@@ -64,8 +64,8 @@ fn main() {
 ### EchoChat
 
 <p align="center">
-  <a href="https://echochat-five.vercel.app/">
-    <img width="280" src="https://img.shields.io/badge/Live_Demo-EchoChat-22d3ee?style=for-the-badge&logo=vercel&logoColor=111827" alt="EchoChat live demo" />
+  <a href="https://idevmeet.com/">
+    <img width="280" src="https://img.shields.io/badge/Live_Demo-EchoChat-22d3ee?style=for-the-badge&logo=cloudflare&logoColor=111827" alt="EchoChat live demo" />
   </a>
 </p>
 
